@@ -23,5 +23,19 @@ namespace semana1_C_
             Console.ReadKey();
 
         }
+        static void ejer2()
+        {
+            Console.Write("Ingresa tu numero X: ");
+            int x = int.Parse( Console.ReadLine() );
+
+            Console.Write("Ingresa tu numero Y: ");
+            int y= int.Parse(Console.ReadLine());
+            double resu = x / y;
+
+            Console.WriteLine("suma: " + (x+y));
+            Console.WriteLine("Resta: "+ (x-y));
+            Console.WriteLine("Multiplicacion: " + (x * y));
+            Console.WriteLine("Divicion: " +resu);
+        }
     }
 }
