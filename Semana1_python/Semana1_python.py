@@ -19,4 +19,14 @@ def ejer2():
 
 def ejer3 ():
     print("\"Ariana\"")
-ejer3()
+
+
+import math #Importando la libreria math ¡Sin sangria gil!
+def ejer4():
+    num=float(input("Ingrese un numero decimal"))
+    print("Raiz cuadrada: ", math.sqrt(num))
+    print("Redondeado: ", round(num,0))
+    print("Al cubo: ", math.pow(num,3))
+    print("Raiz cubica: ", num**(1/3))
+
+ejer4()

@@ -11,7 +11,7 @@ namespace semana1_C_
         static void Main(string[] args)
         {
             
-            ejer3 ();
+            ejer4 ();
         }
         static void ejer1()
         {
@@ -42,6 +42,22 @@ namespace semana1_C_
         static void ejer3()
         {
             Console.WriteLine("\"Ariana\"");
+
+        }
+        static void ejer4()
+        {
+            Console.Write("Ingrese un numero decimal: ");
+            double num =Convert.ToDouble(Console.ReadLine());
+
+            double raiz2= Math.Sqrt(num);
+            int redo =(int)Math.Round(num);
+            double cubo=Math.Pow(num, 3);
+            double raiz3= Math.Pow(num, 1/3d);
+            Console.WriteLine("Raiz 2: " + raiz2);
+            Console.WriteLine("Redondeado: " + redo);
+            Console.WriteLine("Al cubo: " + cubo);
+            Console.WriteLine("Raiz 3: " + raiz3);
+            Console.ReadKey();
 
         }
     }
