@@ -11,7 +11,7 @@ namespace semana1_C_
         static void Main(string[] args)
         {
             
-            ejer2 ();
+            ejer3 ();
         }
         static void ejer1()
         {
@@ -38,6 +38,11 @@ namespace semana1_C_
             Console.WriteLine("Multiplicacion: " + (x * y));
             Console.WriteLine("Divicion: " +resu);
             Console.ReadKey();
+        }
+        static void ejer3()
+        {
+            Console.WriteLine("\"Ariana\"");
+
         }
     }
 }

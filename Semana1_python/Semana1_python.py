@@ -15,4 +15,8 @@ def ejer2():
     print("Multiplicacion: ", (x*y))
     print("Division :",(x/y))
 
-ejer2()
+
+
+def ejer3 ():
+    print("\"Ariana\"")
+ejer3()
